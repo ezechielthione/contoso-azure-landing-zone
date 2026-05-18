@@ -1,0 +1,9 @@
+{
+  "if": {
+    "field": "tags['env']",
+    "exists": "false"
+  },
+  "then": {
+    "effect": "Deny"
+  }
+}
